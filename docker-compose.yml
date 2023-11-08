@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+    linux:
+        tty: true
+        container_name: Linux
+        image: ubuntu:latest
+        volumes:
+            - ./Mount:/Mount
